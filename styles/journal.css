@@ -1,0 +1,164 @@
+@charset "utf-8";
+*{padding: 0;margin: 0;border: 0;}
+
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,div{margin:0;padding:0}
+body{font-size: 18px;font-family: "Microsoft YaHei";background:#fff;-webkit-text-size-adjust:100%;font-weight: lighter;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+body{width:1366px;margin: 0 auto;background-color: #f1f1f1;}
+
+/*清除浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+
+
+
+.header{
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 80px;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	position: relative;
+}
+.menu{
+	background-image: url(../images/menu.png);
+	width:157px;
+	height: 150px;
+	position: absolute;
+	right: 238px;
+	bottom: -140px; 
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: #003454;
+    z-index: 4;
+}
+.menu img{
+	width:60px;
+	margin-top: 30px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: #003454;
+    margin-bottom: -20px;
+}
+.menu h1{
+	width:150px;
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: #003454;
+    font-weight: lighter;
+}
+.menu{
+	transform: translate(0px,100px); 
+	opacity: 0;
+}
+.haha:hover .menu{
+	transform: translate(0px,0px);
+	transition: all 0.4s ease-in-out;
+	opacity: 1;
+}
+
+
+.nav{
+	display: block;
+	width:1002px; 
+	height:80px;
+    margin:0 auto;	
+
+}
+.logo{
+	width: 77px;
+}
+.nav li{
+	width: 167px;
+	height: 80px;
+	float: left;
+
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    line-height: 80px;
+    text-align: center;
+    color: #003454;
+}
+.xuanzhong{
+	background-color: #ea7227;
+}
+
+
+
+
+/*底部*/
+.footer{
+	width: 1002px;
+	height: 170px;
+	margin: 0 auto;
+	background-color: #003454;
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: #ffffff;
+}
+.footer img{
+	margin-top: 44px;
+	margin-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+/*写日志*/
+.journal{
+	width:1002px; 
+	height:900px;
+	margin: 0 auto;
+	color: #003454;
+}
+.journal p{
+	height: 80px;
+	line-height: 80px;
+	font-size: 36px;
+    font-family: "Microsoft YaHei";	
+    color: #003454;
+    margin-left: 200px;
+}
+.journal input{
+	float: right;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+    font-family: "Microsoft YaHei";	
+    font-weight: lighter;
+    color: #f1f1f1;
+    background-color: #003454;
+    border-radius: 5px;
+    margin-top: 94px;
+    margin-right: 167px;
+}
+.edit{
+	width: 668px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: white;
+	position: relative;
+}
+.edit img{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.text{
+	width: 600px;
+	height: 400px;
+	margin-left: 34px;
+	margin-top: 25px;
+}

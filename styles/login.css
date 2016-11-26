@@ -1,0 +1,114 @@
+@charset "utf-8";
+*{padding: 0;margin: 0;border: 0;}
+
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,div{margin:0;padding:0}
+body{font-size: 18px;font-family: "Microsoft YaHei";background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+body{width:1366px;margin: 0 auto;background-color: #f1f1f1;}
+
+/*清除浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+
+
+.main{
+	width: 1366px;
+	height: 768px; 
+	background-image: url(../images/backgroud.jpg);
+	position: relative;
+}
+.logo{
+	position: absolute;
+	right: 160px;
+	top: 90px;
+	z-index: 2;
+}
+.sheet{
+	height: 440px;
+	width: 360px;
+	text-align: center;
+	position: absolute;
+	right: 64px;
+	top: 198px;
+	background-color: rgba(0,0,0,0.3); 
+	padding-top: 100px;
+}
+.login{
+
+	margin: 0 auto;
+	padding-bottom: 5px;
+	width: 288px;
+	border-bottom: 1px solid white;
+}
+.zhanghao{
+	margin-left: -70px;
+}
+
+.mima{
+	margin-top: 10px;
+	margin-left: -70px;
+}
+
+.blank{
+  background-color: rgba(0,0,0,0);
+  line-height: 40px;
+  border:none;
+}
+
+.denglu{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background-color:#d9e8f4; 
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    line-height: 50px;	
+    color: #003454;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.zhuce{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background-color:#003454; 
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    line-height: 50px;	
+    color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.error{
+	width: 200px;
+	position: absolute;
+	bottom: 295px;
+	left: 80px;
+	font-size: 10px;
+    font-family: "Microsoft YaHei";	
+    color: #ffffff;
+    font-weight: lighter;
+}
+.wangji{
+	width: 100px;
+	position: absolute;
+	bottom: 10px;
+	left: 130px;
+	font-size: 10px;
+    font-family: "Microsoft YaHei";	
+    color: #ffffff;
+    font-weight: lighter;
+}
